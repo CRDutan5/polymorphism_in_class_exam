@@ -3,6 +3,10 @@ package org.example;
 public class NotificationService {
 
 
+    public void sendNotification(Notification notification) {
+        notification.send();
+    }
+
     public static void main(String[] args) {
         NotificationService service = new NotificationService();
 
